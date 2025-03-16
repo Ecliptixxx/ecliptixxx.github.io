@@ -121,7 +121,7 @@ main {
 .company-name {
     font-size: 5.8rem;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.21em;
     background: linear-gradient(45deg, #ffffff, #ababab);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

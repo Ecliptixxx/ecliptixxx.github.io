@@ -20,7 +20,11 @@
         <nav>
             <div class="logo">
                 <a href="#top">
-                    <img src="ecliptix.svg" alt="Ecliptix Logo">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="ecliptix.svg">
+                        <source media="(max-width: 768px)" srcset="ecliptix.png">
+                        <img src="ecliptix.svg" alt="Ecliptix Logo">
+                    </picture>
                 </a>
             </div>
             <div class="nav-links">
@@ -35,7 +39,11 @@
         <section id="hero">
             <div class="hero-content">
                 <div class="hero-header">
-                    <img src="ecliptix.svg" alt="Ecliptix Logo" class="hero-logo">
+                    <picture class="hero-logo-container">
+                        <source media="(min-width: 769px)" srcset="ecliptix.svg">
+                        <source media="(max-width: 768px)" srcset="ecliptix.png">
+                        <img src="ecliptix.svg" alt="Ecliptix Logo" class="hero-logo">
+                    </picture>
                     <h2 class="company-name">CLIPTIX</h2>
                 </div>
                 <h1>Transforming Vision into Intelligence</h1>
